@@ -1,0 +1,51 @@
+body {
+	background-color: lightblue;
+}
+
+#audio {
+	background-color: lightblue;
+}
+
+.container {
+	background-color: black;
+	height: 300px;
+	width: 400px;
+	position: fixed; 
+	left: 480px; 
+	top: 220px;
+	color: white;
+}
+h3 {
+	position: relative;
+	right: -10px;
+}
+
+#gameover {
+	position: relative;
+	color: blue;
+	left: 530px; 
+	top: 220px;
+	color: blue;
+}
+button {
+	background-color: lightblue;
+	color: white;
+	border-radius: 50%;
+	height: 30px;
+	width: 290px;
+	position: absolute;
+	right: 50px;
+	border: none;
+	outline: none;
+}
+
+#n {
+	border-radius: 2px;
+	right: 50px;
+	width: 70px;
+	bottom: 10px;
+}
+
+#result {
+	color: red;
+}

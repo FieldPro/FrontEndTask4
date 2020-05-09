@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FieldPro's Quiz</title>
+	<script defer src="TestingJs.js"></script>
+	<link rel="stylesheet" type="text/css" href="TestingJs.css">
+</head>
+<body>
+	<h1>Welcome to FieldPro's Quiz</h1>
+		<h4>Please play some music to enjoy the quiz better.</h4>
+		<audio controls id = "audio">
+			<source src="know_your_worth.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+		</audio>
+		<br>
+		<p id="result"></p>
+	<div class = "container">
+	<div id = "mvCon">
+		<h3>Which of this websites is correct?</h3>
+	</div>
+		<hr>
+		<br>
+			<button type = "button" id="correct" onclick="correct()" >A. start.ng</button><br><br>
+			<button id="b" onclick="myFunction1()">B. ng.start</button><br><br>
+			<button id="c" onclick="myFunction2()">C. startng.ng</button><br><br>
+			<button id="d" onclick="myFunction3()">D. startng.com</button><br><br>
+			<button id="n" onclick="page2()">Next</button><br><br>
+	</div>
+</body>
+</html>
